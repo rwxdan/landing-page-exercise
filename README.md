@@ -9,4 +9,4 @@ This is an assignment from the [Odin Project](https://www.theodinproject.com). A
 
 Note: I've had a lot of fun 'coding' this. I'm sure the ccs rules can be written / used better and the overall html elements can be better organized as well. Nonetheless, I did enjoy recreating* this project, learning new things and applying them in the proccess. Thanks Odin Project.
 
-* *It's not a copycat from the original design. We actually are allowed to play around with images, colors and fonts.* 
+**It's not a copycat from the original design. We actually are allowed to play around with images, colors and fonts.* 
