@@ -20,9 +20,15 @@ a:link {
 .top--row {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.top--row .head {
+    display: flex;
     align-items: center;
-    padding: 2rem 4rem 0 4rem;
+    justify-content: space-between;
+    width: 1000px;
+    padding: 1rem;
 }
 
 .container--1 {
@@ -33,7 +39,7 @@ a:link {
     height: 500px;
 }
 
-.top--row p {
+.top--row .head p {
     font-size: 24px;
     color: #f9faf8;
     font-weight: 700;
@@ -41,7 +47,7 @@ a:link {
     padding: 0;
 }
 
-.top--row ul {
+.top--row .head ul {
     display: flex;
     gap: 32px;
 }
