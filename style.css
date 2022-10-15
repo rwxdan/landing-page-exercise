@@ -94,3 +94,71 @@ a:link {
     margin-left: 0;
     margin-right: 0;
 }
+
+.container--2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 400px; */
+    text-align: center;
+
+}
+
+.container--2 .title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 50px 0;
+}
+
+.container--2 .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    margin-bottom: 100px;
+    gap: 32px;
+}
+
+.container--2 .content div .img--row {
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 8px;
+}
+
+.container--2 .content div .text {
+    font-size: 16px;
+    color: #1F2937;
+    padding-top: .5rem;
+    margin: 0 32px;
+}
+
+.container--3 {
+    background-color: #e5e7eb;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container--3 .content {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+}
+.container--3 .quote {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.container--3 .author {
+    font-size: 22px;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-top: 18px;
+    padding-right: 48px;
+}
