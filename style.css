@@ -27,16 +27,9 @@ a:link {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     width: 1200px;
-    padding-top: 1.5rem;
-}
-
-.container--1 {
-    background-color: #1F2937;
-    display: flex;
-    justify-content: center;
-    padding: 0 8rem;
-    height: 500px;
+    padding: 1.5rem 3rem 0 3rem;
 }
 
 .top--row .head p {
@@ -44,7 +37,6 @@ a:link {
     color: #f9faf8;
     font-weight: 700;
     margin: 0;
-    padding: 0;
 }
 
 .top--row .head ul {
@@ -52,19 +44,29 @@ a:link {
     gap: 32px;
 }
 
+.container--1 {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+
 .container--1 .center--row {
     display: flex;
     width: 1000px;
-    gap: 6rem;
+    padding: 0 3rem;
     align-items: center;
-    justify-items: center;
+    gap: 2rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .center--row .text {
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 550px;
 }
 
 .center--row .text .title {
@@ -106,7 +108,6 @@ a:link {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* height: 400px; */
     text-align: center;
 
 }
@@ -120,8 +121,6 @@ a:link {
 
 .container--2 .content {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 1000px;
     margin-bottom: 100px;
     gap: 32px;
@@ -164,6 +163,7 @@ a:link {
 .container--3 .author {
     font-size: 22px;
     font-weight: bold;
+    color: #1F2937;
     align-self: flex-end;
     margin-top: 18px;
     padding-right: 48px;
