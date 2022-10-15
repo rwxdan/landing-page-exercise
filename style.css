@@ -168,3 +168,55 @@ a:link {
     margin-top: 18px;
     padding-right: 48px;
 }
+
+.container--4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.container--4 .content {
+    display: flex;
+    width: 840px;
+    background-color: #3882f6;
+    padding: 28px 62px;
+    border-radius: 8px;
+}
+
+.container--4 .content .text {
+    flex: 2 1 auto;
+    padding: 0 2rem;
+}
+.container--4 .content .text .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin-bottom: 0;
+}
+
+.container--4 .content .text .para {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: .5rem;
+}
+
+.container--4 .content .btn {
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e5e7eb;
+    border-style: none;
+    border: 2px solid #e5e7eb;
+    border-radius: 6px;
+    background-color: #3882f6;
+    padding: .5rem .5rem;
+    margin: 2rem;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 2rem;
+}
